@@ -15,7 +15,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-emerald-700 border-b border-emerald-500">
+    <nav className="bg-teal-700 border-b border-teal-500">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -53,7 +53,7 @@ const Navbar = () => {
               <Image className="h-10 w-auto" src={logo} alt="PropertyPulse" />
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2">
-                RentEase
+                RentEasy
               </span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}

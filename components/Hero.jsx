@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-emerald-700 py-20 mb-4">
+    <section className="bg-teal-700 py-20 mb-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
@@ -19,7 +19,7 @@ const Hero = () => {
               type="text"
               id="location"
               placeholder="Enter Location (City, State, Zip, etc"
-              className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-emerald-500"
+              className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-teal-500"
             />
           </div>
           <div className="w-full md:w-2/5 md:pl-2">
@@ -28,7 +28,7 @@ const Hero = () => {
             </label>
             <select
               id="property-type"
-              className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-emerald-500"
+              className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-teal-500"
             >
               <option value="All">All</option>
               <option value="Apartment">Apartment</option>
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           <button
             type="submit"
-            className="md:ml-4 mt-4 md:mt-0 w-full md:w-auto px-6 py-3 rounded-lg bg-emerald-500 text-white hover:bg-emerald-600 focus:outline-none focus:ring focus:ring-emerald-500"
+            className="md:ml-4 mt-4 md:mt-0 w-full md:w-auto px-6 py-3 rounded-lg bg-teal-500 text-white hover:bg-teal-600 focus:outline-none focus:ring focus:ring-teal-500"
           >
             Search
           </button>

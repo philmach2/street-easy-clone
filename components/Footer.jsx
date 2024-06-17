@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-sm text-gray-600 mt-2 md:mt-0">
-            &copy; {currentYear} RentEase. All rights reserved.
+            &copy; {currentYear} RentEasy All rights reserved.
           </p>
         </div>
       </div>
